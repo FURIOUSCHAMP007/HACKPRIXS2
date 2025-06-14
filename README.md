@@ -2,7 +2,7 @@
 
 A real-time, web-based dashboard to coordinate **drone missions**, monitor **live disaster feeds**, and manage **emergency dispatches** — purpose-built for the **National Disaster Response Force (NDRF)** and similar agencies.
 
-![Project Banner](./src/assets/banner.jpg)
+WEBISTE LIVE LINK - https://furiouschamp007.github.io/HACKPRIXS2/
 
 ---
 
