@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Coordination – NDRF Drone Rescue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f7ff;
+      color: #222;
+    }
+
+    .navbar {
+      background-color: #003366;
+      padding: 12px 24px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      margin-left: 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 30px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .member {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .member h3 {
+      margin: 10px 0 5px;
+      color: #004080;
+    }
+
+    .member p {
+      margin: 5px 0;
+      font-size: 0.95rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 700px) {
+      .team-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div><a href="index.html">← Back to Home</a></div>
+    <div>NDRF Drone Rescue</div>
+  </div>
+
+  <div class="container">
+    <h1>👨‍✈️ Team Coordination</h1>
+    <div class="team-grid">
+      <div class="member">
+        <h3>Amit Singh</h3>
+        <p>Lead Drone Pilot – North Zone</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ amit.ndrf@rescue.in</p>
+      </div>
+      <div class="member">
+        <h3>Ritika Sharma</h3>
+        <p>Command Officer – East Zone</p>
+        <p>📞 +91 97654 12345</p>
+        <p>✉️ ritika.ndrf@rescue.in</p>
+      </div>
+      <div class="member">
+        <h3>Faizan Ahmed</h3>
+        <p>Drone Operations Specialist</p>
+        <p>📞 +91 91234 56789</p>
+        <p>✉️ faizan.ndrf@rescue.in</p>
+      </div>
+      <div class="member">
+        <h3>Neha Raj</h3>
+        <p>South Command Liaison</p>
+        <p>📞 +91 99887 77665</p>
+        <p>✉️ neha.ndrf@rescue.in</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 NDRF Drone Rescue – Coordination and Operations Team
+  </div>
+</body>
+</html>

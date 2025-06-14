@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Types of Rescue Drones</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f8fb;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #003366;
+            margin-bottom: 40px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366;
+            color: #fff;
+            padding: 16px 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        .navbar .nav-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 8px 18px;
+            background-color: #fff;
+            color: #003366;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-right: 18px;
+            transition: background 0.2s, color 0.2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .back-btn:hover {
+            background-color: #00509e;
+            color: #fff;
+        }
+
+        .navbar-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background-color: #e6f0ff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            background-color: #d0dbe5;
+        }
+
+        .card h3 {
+            margin-top: 15px;
+            color: #003366;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+    <div class="navbar-title">NDRF Drone Rescue</div>
+  </div>
+  <div class="container">
+    <h1>Types of Rescue Drones</h1>
+    <div class="grid">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="surveillance-drone.jpg" alt="Surveillance Drone" />
+            <h3>Surveillance Drones</h3>
+            <p>Provide aerial views of disaster areas using high-resolution cameras for real-time assessment.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="payload-drone.jpg" alt="Payload Drone" />
+            <h3>Payload Drones</h3>
+            <p>Transport emergency supplies such as food, medicine, and rescue equipment to remote locations.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="thermal-drone.jpg" alt="Thermal Drone" />
+            <h3>Thermal Imaging Drones</h3>
+            <p>Use heat signatures to detect people during low-visibility operations like night or smoke-filled areas.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="mapping-drone.jpg" alt="Mapping Drone" />
+            <h3>Mapping Drones</h3>
+            <p>Create 2D and 3D maps of affected regions to aid in planning and coordination of rescue missions.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+            <img src="rov-drone.jpg" alt="Underwater ROV" />
+            <h3>Underwater ROVs</h3>
+            <p>Deployed for underwater inspections and search operations in flooded or submerged areas.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+            <img src="lifesaver-drone.jpg" alt="Lifesaving Drone" />
+            <h3>Lifesaving Drones</h3>
+            <p>Carry life-saving equipment like inflatable devices or communication tools to stranded individuals.</p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

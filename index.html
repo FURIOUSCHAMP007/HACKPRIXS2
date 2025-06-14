@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NDRF Drone Rescue – Real-time drone deployment platform for disaster relief and emergency response using advanced tech and AI tools."
+    />
+    <title>NDRF Drone Rescue Integrated System</title>
+    <script type="module" src="/src/main.jsx"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f8fb;
+        color: #222;
+        line-height: 1.6;
+      }
+
+      .navbar {
+        background: #003366;
+        color: #fff;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        justify-content: space-between;
+      }
+
+      .navbar .logo {
+        font-weight: bold;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+      }
+
+      .navbar nav {
+        display: flex;
+        gap: 24px;
+      }
+
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 8px 0;
+        transition: color 0.2s;
+      }
+
+      .navbar a:hover {
+        color: #ffd700;
+      }
+
+      .hero {
+        padding: 60px 20px;
+        background-color: #004080;
+        color: white;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2.75rem;
+        margin-bottom: 20px;
+      }
+
+      .hero-images {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        max-width: 700px;
+      }
+
+      .hero-images img {
+        width: 320px;
+        max-width: 90%;
+        border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+        background: #fff;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+
+      .features {
+        background: #ffffff;
+        padding: 40px 20px;
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+      .features h2 {
+        font-size: 2rem;
+        color: #004080;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .feature-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding-top: 10px;
+      }
+
+      .feature {
+        background: #e6f0ff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+
+      .feature h3 {
+        margin-top: 0;
+        color: #003366;
+      }
+
+      #root {
+        margin-top: 40px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ✅ Navigation Bar -->
+    <div class="navbar">
+      <div class="logo">NDRF Drone Rescue Integrated System</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="types-of-drones.html">Types of Rescue Drones</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <!-- ✅ Hero Section -->
+    <div class="hero">
+      <h1>🚁 NDRF Drone Rescue Platform</h1>
+      <div class="hero-images">
+        <img src="drone-rescue.jpg" alt="Drone Rescue Operation" />
+        <img src="flood rescue.jpg" alt="Flood Rescue Operation" />
+      </div>
+      <p>
+        The NDRF Drone Rescue Platform is a mission-critical web application designed to assist the National Disaster Response Force
+        in real-time coordination of aerial drones during emergency rescue and disaster management operations across India.
+      </p>
+    </div>
+
+    <!-- ✅ Features Section -->
+    <div class="features" id="features">
+      <h2>🔍 Key Features</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>Real-Time Drone Tracking</h3>
+          <p>Monitor location, altitude, and live status of all deployed drones on an interactive map.</p>
+        </div>
+        <div class="feature">
+          <h3>Live Video Feeds</h3>
+          <p>View real-time aerial footage from drones operating in disaster-hit regions to make quick decisions.</p>
+        </div>
+        <div class="feature">
+          <h3>Mission Dashboard</h3>
+          <p>Overview of current and past missions, including mission names, regions, and statuses (Ongoing, Completed).</p>
+        </div>
+        <div class="feature">
+          <h3>Emergency Alerts</h3>
+          <p>Broadcast critical alerts and status updates to operators and rescue teams instantly.</p>
+        </div>
+        <div class="feature">
+          <h3>Team Coordination</h3>
+          <p>Profiles and contact information of drone pilots, regional command teams, and operators.</p>
+        </div>
+        <div class="feature">
+          <h3>Secure Communication</h3>
+          <p>Encrypted backend with secure authentication for authorized users like NDRF and control room admins.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ React Mount Point -->
+    <div id="root"></div>
+
+    
+
+    <!-- ✅ Footer -->
+    <div class="footer" id="contact">
+      &copy; 2025 NDRF Drone Rescue. Built for mission-critical coordination during disaster response.
+    </div>
+  </body>
+</html>
